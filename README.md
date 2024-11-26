@@ -93,6 +93,10 @@ A plan to build your own media server
 
 # MISC
 
+## Authorised Pearson Vue Test Centre 
+Quill Learning
+> https://quill.com.au/pages/test-centre
+
 ## Sysinternals
 Useful tools such as a TCP viewer.
 > https://live.sysinternals.com/
