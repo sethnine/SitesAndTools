@@ -68,6 +68,10 @@ A window manager that tiles? looks good
 A GNU os much like NixOS. Less packages, but totally free.
 > https://guix.gnu.org/
 
+# Crontab Guru
+A website that describes your crontab
+> https://crontab.guru
+
 # Self Hosting
 
 ## Vault Warden
