@@ -167,3 +167,35 @@ Goods are transfered between stations automatically
 ### Spidertron Automation
 Adds in construction spidertrons which make logistic network requests for what they need to build with.
 > https://mods.factorio.com/mod/Constructron-Continued
+
+# Bookmarklets
+
+## Debian Man Pages
+Search the Man Pages of debian packages
+```
+javascript: (() => {
+    let query = prompt("ManPages Query:");
+    let url = "https://manpages.debian.org/" + encodeURIComponent(query + ".html");
+    if (query == null) {
+        console.log("ManPages bookmarklet: query cancelled");
+        return;
+    }
+    console.log("ManPages bookmarklet: going to " + url);
+    window.open(url, "_blank", "location=yes,height=800,width=735,scrollbars=yes,status=no");
+})();
+```
+
+## ChatGPT
+Ask ChatGPT a question
+```
+javascript: (() => {
+    let query = prompt("Ask ChatGPT:");
+    let url = "https://chatgpt.com/?q=" + encodeURIComponent(query);
+    if (query == null) {
+        console.log("ChatGPT bookmarklet: query cancelled");
+        return;
+    }
+    console.log("ChatGPT bookmarklet: going to " + url);
+    window.open(url, "_blank", "location=yes,height=800,width=735,scrollbars=yes,status=yes");
+})();
+```
