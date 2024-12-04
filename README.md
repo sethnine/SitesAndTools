@@ -219,3 +219,9 @@ javascript: (() => {
     window.open(url, "_blank", "location=yes,height=800,width=735,scrollbars=yes,status=yes");
 })();
 ```
+
+# Games
+
+## Snake
+The best snake clone
+> https://patorjk.com/games/snake/
