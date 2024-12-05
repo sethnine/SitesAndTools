@@ -220,6 +220,10 @@ javascript: (() => {
 })();
 ```
 
+## ip lookup
+plaintext ip from http request, ipv4/6 subdomains
+> https://www.icanhazip.com/
+
 # Games
 
 ## Snake
